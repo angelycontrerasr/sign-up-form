@@ -30,9 +30,11 @@ body {
 }
 .right {
     float: right;
+    padding-right: 100px;
 }
 input, label {
-    line-height: 20px;
+    line-height: 15px;
     padding-bottom: 10px;
+    width: 200px;
     display: block;
 }
