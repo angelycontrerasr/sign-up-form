@@ -1,0 +1,38 @@
+body {
+  background-color: lightgray;
+}
+.image img{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 50%
+}
+.text {
+    position: absolute;
+    left: 50%;
+}
+.form {
+    background-color: white;
+    padding: 20px 120px 200px 40px;
+    width: 80%;
+    height: 70%;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    line-height: 20px;
+    text-align: left;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+input, label {
+    line-height: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
